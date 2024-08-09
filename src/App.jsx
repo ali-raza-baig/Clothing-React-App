@@ -7,7 +7,6 @@ import LoginPage from "./Pages/LoginPage"
 
 
 function App() {
-
   return (
     <Routes>
       <Route path="/" element={<HomePage />} />

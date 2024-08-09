@@ -6,6 +6,7 @@ const HomePage = () => {
 
     return (
         <Layout>
+
             <section className="text-brown-dark bg-brown-light body-font">
                 <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
@@ -91,7 +92,6 @@ const HomePage = () => {
                 <div className="text-center text-brown-dark font-extrabold text-2xl">Best Salling</div>
                 <ProductSection />
             </div>
-
             <section className="text-brown-dark bg-brown-light body-font">
                 <div className="container px-5 mb-10 py-10 mx-auto flex flex-wrap">
                     <div className="lg:w-1/2 sm:w-1/3 w-full rounded-lg overflow-hidden mt-6 sm:mt-0">
